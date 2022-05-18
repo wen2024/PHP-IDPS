@@ -1,0 +1,6 @@
+本文件只读取以 wid 开头的有效规则, 请参考帮助文档编写规则。
+
+wid:100;msg:次数目标时间;alert (http_method:/GET/;http_stat_code:/200/;count:3;target:src_ip;time:10)
+wid:101;msg:次数目标;alert (http_method:/GET/;http_stat_code:/200/;count:3;target:src_ip)
+wid:102;msg:次数时间;alert (http_method:/GET/;http_stat_code:/200/;count:3;time:10)
+wid:103;msg:次数;alert (http_method:/GET/;http_stat_code:/200/;count:3)
